@@ -1,0 +1,81 @@
+Session-01 - Day-01 
+
+
+DevOps/SRE/SysAdmin/SysEng - Profile 
+1) Linux 
+2) Automation 
+3) Cloud 
+4) Container (Container Orchestration).
+
+2) Automation 
+  - Tools based automation (Puppet/Ansible/Terraform/etc)
+  - Code based automation (Shell/Perl/Python/PowerShell/GoLang)
+  
+  As per current Industries - Tools based automation required.
+  
+
+Ansible as a product:-
+
+Ansible is an Automation platform, servers (Linux/Unix/Windows), Network (Router/Switches - CISCO-IOS, etc), Containers.
+Ansible can automate Physical/Virtual/Cloud/COnatiners, all environment.
+
+
+https://www.ansible.com/
+
+What is Ansible Automation Platfrom version 2.0 
+https://www.redhat.com/en/resources/ansible-automation-platform-datasheet?extIdCarryOver=true&sc_cid=701f2000001OH6uAAG
+
+Training and Certification:-
+https://www.ansible.com/products/training-certification
+
+Ansible Docs:-
+https://docs.ansible.com/
+
+###########################
+- English (Ansible playbook written in yaml and output will be in json)
+- Skills - Copy & Paste 
+
+
+You can use Ansible to 
+- deploy applications
+- for configuration management
+- for workflow automation
+- and for network automation. 
+
+NOte: 
+Ansible can be used to orchestrate the entire application life cycle.
+
+#######################
+Classroom Environment:-
+
+- User information:
+  student/student   (student account having passwordless authentication and with password authorization) 
+  devops/redhat     (devops account having password-less authentication and  passwordless authorization) 
+  root/redhat       - root acount.
+  
+
+-  VMSs Virtual Machine/Physical machine.
+
+  workstation.lab.example.com   (Control node, Where you have installed ansible).
+  servera.lab.example.com       (Managed host, where you are performing tasks).
+  serverb.lab.example.com       (Managed host, where you are performing tasks).
+  serverc.lab.example.com       (Managed host, where you are performing tasks).
+  serverd.lab.example.com       (Managed host, where you are performing tasks).
+  bastion.lab.example.com       (Act as router - Which connect Student N/w to Classroom N/w).
+  
+- Network & Domain:-
+  DOmain - lab.example.com  , Network - 172.25.250.0/24
+  
+  Classroom -   example.com  , Network - 172.25.252.0/24
+  
+  
+
+
+
+
+
+
+
+
+
+
